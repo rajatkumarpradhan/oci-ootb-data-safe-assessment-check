@@ -1,0 +1,12 @@
+{
+  "target": "adb-prod-orders",
+  "assessment_time": "2026-09-30T09:15:00Z",
+  "findings": [
+    {"id": "DS-1001", "title": "PUBLIC role granted to application schema", "risk": "CRITICAL", "status": "OPEN"},
+    {"id": "DS-1002", "title": "Default password profile limits unchanged", "risk": "HIGH", "status": "OPEN"},
+    {"id": "DS-1003", "title": "Audit trail retention below 90 days", "risk": "HIGH", "status": "OPEN"},
+    {"id": "DS-1004", "title": "Unused schema account not locked", "risk": "MEDIUM", "status": "OPEN"},
+    {"id": "DS-1005", "title": "DBMS_SCHEDULER jobs owned by application schema", "risk": "LOW", "status": "OPEN"},
+    {"id": "DS-1006", "title": "Tablespace encryption review postponed", "risk": "MEDIUM", "status": "DEFERRED"}
+  ]
+}
