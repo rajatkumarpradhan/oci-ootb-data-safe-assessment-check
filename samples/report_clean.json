@@ -1,1 +1,8 @@
-
+{
+  "target": "adb-prod-orders",
+  "assessment_time": "2026-11-22T09:15:00Z",
+  "findings": [
+    {"id": "DS-1001", "title": "PUBLIC role granted to application schema", "risk": "CRITICAL", "status": "CLOSED", "note": "grant revoked 2026-11-10"},
+    {"id": "DS-1006", "title": "Tablespace encryption review postponed", "risk": "MEDIUM", "status": "DEFERRED", "note": "accepted risk: TDE migration scheduled Q1, tracked in Jira SEC-441"}
+  ]
+}
